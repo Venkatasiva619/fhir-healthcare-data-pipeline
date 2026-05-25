@@ -1,0 +1,45 @@
+# Databricks
+.databricks/
+*.pyc
+__pycache__/
+*.ipynb_checkpoints/
+.ipynb_checkpoints/
+
+# Python
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# Data files
+*.parquet
+*.delta
+*.csv
+*.json
+data/
+raw_data/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Credentials
+*.pem
+*.key
+credentials.json
+.env
